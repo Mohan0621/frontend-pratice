@@ -2,58 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Profile</title>
+  <title>Mohan's Blog</title>
 </head>
 <body>
 
-  <section>
-    <h1><strong>About Me</strong></h1>
-    <table>
-      <tr>
-        <td>
-          <p>
-            Hi, I am Mohan Chandra.<br>
-            A student at SRM AP, Batch 2028.<br>
-            This is my first frontend project.
-          </p>
-        </td>
-        <td>
-          <img src="Pictures/Saved Pictures/C1.jpg" title="Mohan" width="200" height="200" alt="Profile photo of Mohan">
-        </td>
-      </tr>
-    </table>
+  <!-- Header Section -->
+  <header>
+    <h1>Mohan's Blog</h1>
+    <form method="GET" action="#">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search" placeholder="Search articles...">
+      <input type="submit" value="Search">
+    </form>
+  </header>
 
+  <hr>
+
+  <!-- Main Blog Section -->
+  <section>
+    <h2>Latest Articles</h2>
+
+    <div class="article">
+      <h3>♟️ ChessBase India</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Chess_pieces_close_up.jpg" alt="Chess India" width="200">
+      <p>13-year-old cannot believe he just beat Hikaru Nakamura in the World Blitz Tournament.</p>
+      <p><strong>Author:</strong> Mohan | <strong>Date:</strong> 21/06/2025</p>
+    </div>
+
+    <div class="article">
+      <h3>✈️ Air India News</h3>
+      <img src="https://images.news18.com/ibnlive/uploads/2025/06/air-india-2025-06-14483b87cde4745531563c269e37d442.png" alt="Air India" width="200">
+      <p>Air India's new owners were trying to revamp the airline before the recent crash.</p>
+      <p><strong>Author:</strong> Mohan | <strong>Date:</strong> 21/06/2025</p>
+    </div>
+
+    <div class="article">
+      <h3>🎬 Interstellar Scene Breakdown</h3>
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ11DtS2HHLba5FaL0Pp7FhOrxi2huOesValmjDLYr-HgS_lI7xLNosgToP1n5kTPm1JDQpLe2SxoCIljKcWK2uCrgVDFCNIpl1dHY7W0Q" alt="Interstellar" width="200">
+      <p>Why Coop's message scene in Interstellar works emotionally and scientifically.</p>
+      <p><strong>Author:</strong> Mohan | <strong>Date:</strong> 21/06/2025</p>
+    </div>
+
+  </section>
+
+  <hr>
+
+  <!-- Featured Story -->
+  <section id="champagne">
+    <h2>🍾 A Spontaneous Celebration (Moët & Chandon)</h2>
+    <img src="https://static01.nyt.com/images/2025/06/19/business/19biz-champagne-celebrations/19biz-champagne-celebrations-superJumbo.jpg?quality=75&auto=webp" alt="NBA Celebration" width="300">
     <p>
-      I am a computer science student. I am really passionate about problem solving, algorithms, and full-stack development.
+      When the Golden State Warriors were about to win the 2018 championship, Moët & Chandon asked to place a bathtub full of champagne bottles in the locker room.
+      The Cavaliers said no, but the Warriors sneaked it in using beer cases and a tarp.
     </p>
+    <p><strong>Author:</strong> Mohan | <strong>Date:</strong> 21/06/2025</p>
   </section>
 
   <hr>
 
-  <section>
-    <h2><strong>Skills</strong></h2>
+  <!-- Navigation to Other Articles -->
+  <nav>
+    <h3>Related Articles</h3>
     <ul>
-      <li>C</li>
-      <li>HTML</li>
-      <li>DSA</li>
-      <li>Currently learning CSS and JavaScript</li>
+      <li><a href="#champagne">Champagne Celebration Story</a></li>
+      <li><a href="#">MyPillow Founder Defends Security Expert</a></li>
     </ul>
-  </section>
+  </nav>
 
   <hr>
 
-  <section>
-    <h3><strong>Contact</strong></h3>
-    <p>Instagram:  
-      <a href="https://instagram.com/yourhandle" target="_blank">instagram.com/yourhandle</a>
-    </p>
-    <p>GitHub:  
-      <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
-    </p>
-    <p>LinkedIn:  
-      <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
-    </p>
-  </section>
+  <!-- Footer Section -->
+  <footer>
+    <ul>
+      <li>&copy; 2025 The Mohan Times</li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Work With Us</a></li>
+      <li><a href="#">Advertise</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+  </footer>
 
 </body>
 </html>
