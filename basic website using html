@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Clone by Mohan</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="top">
+    <h1>amazon<sub>.in</sub></h1>
+
+    <form method="get" action="#">
+      <label for="category">Category:</label>
+      <select id="category" name="category">
+        <option>All</option>
+        <option>Alexa Skill</option>
+        <option>Amazon Device</option>
+        <option>Amazon Fashion</option>
+        <option>Amazon Fresh</option>
+        <option>Beauty</option>
+      </select>
+
+      <input type="text" name="search" placeholder="Search Amazon.in">
+      <input type="submit" value="Search">
+
+      <label for="language">Language:</label>
+      <select id="language" name="language">
+        <option>EN</option>
+        <option>HIN</option>
+        <option>TEL</option>
+        <option>TAM</option>
+      </select>
+    </form>
+  </header>
+
+  <hr>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#mobiles">Mobiles</a> |
+    <a href="#appliances">Appliances</a> |
+    <a href="#furnish">Furnish</a>
+  </nav>
+
+  <hr>
+
+  <!-- Preview iframes (can use your other HTML pages here) -->
+  <section>
+    <h2>Deal Previews</h2>
+    <iframe src="submit.html" width="400" height="300" title="Deals 1"></iframe>
+    <iframe src="mohan.html" width="400" height="300" title="Deals 2"></iframe>
+  </section>
+
+  <hr>
+
+  <!-- Mobile Section -->
+  <section id="mobiles">
+    <h2>Mobile Phones</h2>
+
+    <article>
+      <h3>Nothing Phone (2a) Plus</h3>
+      <img src="https://m.media-amazon.com/images/I/41gPGB5fW3L._SR240,220_.jpg" alt="Nothing Phone (2a)" width="200" height="200">
+
+      <p>
+        Grey, 8GB RAM, 256GB Storage<br>
+        50MP Dual Camera | Dimensity 7350 Pro | 6.7" AMOLED
+      </p>
+
+      <form>
+        <p><strong>Choose an Option:</strong></p>
+        <label><input type="radio" name="price" value="exchange"> With Exchange: ₹18,950</label><br>
+        <label><input type="radio" name="price" value="new"> Without Exchange: ₹20,000</label><br><br>
+        <button type="submit">Add to Cart</button>
+        <button type="submit">Buy Now</button>
+      </form>
+
+      <h4>Specifications:</h4>
+      <ul>
+        <li>8 GB RAM</li>
+        <li>256 GB Storage</li>
+        <li>50MP Rear + 50MP Front Camera</li>
+        <li>6.7" AMOLED Display</li>
+        <li>Android 14</li>
+      </ul>
+    </article>
+  </section>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#top">Back to Top</a>
+
+    <h3>Get To Know Us</h3>
+    <ul>
+      <li>About Amazon</li>
+      <li>Careers</li>
+      <li>Press Releases</li>
+      <li>Amazon Science</li>
+    </ul>
+
+    <h3>Connect With Us</h3>
+    <ul>
+      <li>Facebook</li>
+      <li>Twitter</li>
+      <li>Instagram</li>
+    </ul>
+
+    <h3>Language & Region</h3>
+    <form>
+      <label for="lang">Language:</label>
+      <select id="lang">
+        <option>English</option>
+        <option>Hindi</option>
+        <option>Telugu</option>
+        <option>Tamil</option>
+      </select>
+
+      <label for="region">Country:</label>
+      <select id="region">
+        <option>India</option>
+      </select>
+    </form>
+
+    <p>&copy; 2025 Mohan | Amazon Clone Project</p>
+  </footer>
+
+</body>
+</html>
